@@ -1,1 +1,1 @@
-sample
+sample text
