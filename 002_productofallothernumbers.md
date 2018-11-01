@@ -14,4 +14,4 @@ Your method would return: [84, 12, 28, 21]
 By calculating: [7 * 3 * 4,  1 * 3 * 4,  1 * 7 * 4,  1 * 7 * 3]
 ```
 
-_Here's the catch: *You can't use division in your solution!*_
+_Here's the catch: **You can't use division in your solution!**_
