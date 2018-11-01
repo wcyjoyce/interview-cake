@@ -23,8 +23,7 @@ def square_array_in_place(int_array)
     int_array[index] *= element
   end
 
-  # NOTE: we could make this method return nil,
-  # since we modify int_array in place.
+  # NOTE: we could make this method return nil, since we modify int_array in place.
   return int_array
 end
 
