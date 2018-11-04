@@ -25,8 +25,6 @@ stock_prices_loss = [10, 7, 5, 4, 3, 1]
 get_max_profit(stock_prices_profit)
 get_max_profit(stock_prices_loss)
 
-###
-
 # ANSWER:
 
 def answer(stock_prices)
