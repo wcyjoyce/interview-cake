@@ -2,10 +2,6 @@
 # Write a method merge_ranges() that takes an array of multiple meeting time
 # ranges and returns an array of condensed ranges.
 
-# For example:
-# Given:                     [[0, 1], [3, 5], [4, 8], [10, 12], [9, 10]]
-# Your method should return: [0, 1], [3, 8], [9, 12]]
-
 def merge_ranges(array)
   array.sort!
   range = []
