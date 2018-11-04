@@ -8,9 +8,7 @@ You have an array of integers, and for each index you want to find the product o
 For example:
 ```
 Given: [1, 7, 3, 4]
-
-Your method would return: [84, 12, 28, 21]
-
+Your method should return: [84, 12, 28, 21]
 By calculating: [7 * 3 * 4,  1 * 3 * 4,  1 * 7 * 4,  1 * 7 * 3]
 ```
 
