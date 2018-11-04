@@ -4,4 +4,4 @@ This is a repository of all the coding exercises provided at [Interview Cake](ht
 
 * [#214 | In-Place Shuffle](https://www.interviewcake.com/question/ruby/shuffle)
 * [#002 | Product of All Numbers](https://www.interviewcake.com/question/ruby/product-of-other-numbers)
-* [#001 | Greedy Trading](https://www.interviewcake.com)
+* [#001 | Greedy Trading](https://www.interviewcake.com/question/ruby/stock-price)
