@@ -26,3 +26,11 @@ my_rectangle = {
 ```
 
 Your output rectangle should use this format as well.
+
+---
+
+Notes:
+* What if there is no intersection? Does your method do something reasonable in that case?
+* What if one rectangle is entirely contained in the other? Does your method do something reasonable in that case?
+* What if the rectangles don't really intersect but share an edge? Does your method do something reasonable in that case?
+* Do some parts of your method seem very similar? Can they be refactored so you repeat yourself less?
