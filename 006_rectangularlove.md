@@ -5,8 +5,7 @@
 
 They need help writing an algorithm to find the intersection of two users' love rectangles. They suspect finding that intersection is the key to a matching algorithm so powerful it will cause an immediate acquisition by Google or Facebook or Obama or something.
 
-![Rectangular Intersection]
-(https://www.interviewcake.com/images/svgs/rectangular_love__it_must_be_love.svg?bust=188)
+![Rectangular Intersection](https://www.interviewcake.com/images/svgs/rectangular_love__it_must_be_love.svg?bust=188)
 
 **Write a method to find the rectangular intersection of two given love rectangles.**
 
