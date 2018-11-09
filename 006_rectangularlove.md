@@ -9,7 +9,7 @@ They need help writing an algorithm to find the intersection of two users' love 
 
 **Write a method to find the rectangular intersection of two given love rectangles.**
 
-As with the example above, love rectangles are always "straight" and never "diagonal." More rigorously: each side is parallel with either the x-axis or the y-axis.
+As with the example above, love rectangles are always "straight" and never "diagonal". More rigorously: each side is parallel with either the x-axis or the y-axis.
 
 They are defined as hashes like this:
 ```
