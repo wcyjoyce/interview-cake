@@ -1,18 +1,6 @@
 # TODO:
 # Write a method to find the rectangular intersection of two given love rectangles.
 
-def x_overlap(x1, width_1, x2, width_2)
-  width_endpoint_1 = x1 + width_1
-  x_overlap = width_endpoint_1 - x2 if width_endpoint_1 >= x2
-  p x_overlap
-end
-
-def y_overlap(y1, height_1, y2, height_2)
-  height_endpoint_1 = y1 + height_1
-  y_overlap = height_endpoint_1 - y2 if height_endpoint_1 >= y2
-  p y_overlap
-end
-
 def overlap(coordinate_1, range_1, coordinate_2, range_2)
   start_point = [coordinate_1, coordinate_2].max
   end_point = [(coordinate_1 + range_1), (coordinate_2 + range_2)].min
