@@ -3,6 +3,7 @@
 This is a repository of all the coding exercises provided at [Interview Cake](https://www.interviewcake.com/). All coding is written in Ruby until I have the resources to learn another coding language.
 
 * [#214 | In-Place Shuffle](https://www.interviewcake.com/question/ruby/shuffle)
+* [#007 | Temperature Tracker](https://www.interviewcake.com/question/ruby/temperature-tracker)
 * [#006 | Rectangular Love](https://www.interviewcake.com/question/ruby/rectangular-love)
 * [#005 | Making Change](https://www.interviewcake.com/question/ruby/coin)
 * [#004 | Merging Meeting Times](https://www.interviewcake.com/question/ruby/merging-ranges)
