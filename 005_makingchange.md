@@ -1,7 +1,7 @@
 # Making Change
 ###### [Date]
 
-**Your quirky boss collects rare, old coins...**
+_Your quirky boss collects rare, old coins..._
 
 They found out you're a programmer and asked you to solve something they've been wondering for a long time.
 
