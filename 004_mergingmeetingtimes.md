@@ -1,13 +1,13 @@
 # Merging Meeting Times
 ###### [Date]
 
-**Your company built an in-house calendar tool called HiCal. You want to add a feature to see the times in a day when everyone is available.**
+_Your company built an in-house calendar tool called HiCal. You want to add a feature to see the times in a day when everyone is available._
 
 To do this, you’ll need to know when any team is having a meeting. In HiCal, a meeting is stored as an array of integers [start_time, end_time]. These integers represent the number of 30-minute blocks past 9:00am.
 
 For example: ```[2, 3] = meeting from 10:00 – 10:30 am``` and ```[6, 9] = meeting from 12:00 – 1:30 pm```
 
-Write a method merge_ranges() that takes an array of multiple meeting time ranges and returns an array of condensed ranges.
+**Write a method merge_ranges() that takes an array of multiple meeting time ranges and returns an array of condensed ranges.**
 
 ---
 
