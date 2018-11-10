@@ -13,6 +13,18 @@ def y_overlap(y1, height_1, y2, height_2)
   p y_overlap
 end
 
+def overlap(coordinate_1, range_1, coordinate_2, range_2)
+  start_point = [coordinate_1, coordinate_2].max
+  end_point = [(coordinate_1 + range_1), (coordinate_2 + range_2)].min
+  start_point < end_point ? range = start_point - end_point : nil
+  p range
+end
+
+overlap(1,6,5,3) # x
+overlap(1,3,2,3) # y
+overlap(1,1,4,1)
+overlap(1,1,4,4)
+
 def intersect(rectangle_1, rectangle_2)
   width_endpoint_1 = rectangle_1[:left_x] + rectangle_1[:width]
   x_overlap = width_endpoint_1 - rectangle_2[:left_x] if width_endpoint_1 >= rectangle_2[:left_x]
@@ -69,5 +81,5 @@ rectangle_5 = {
   height: 1,
 }
 
-intersect(rectangle_1, rectangle_2)
-intersect(rectangle_1, rectangle_3)
+# intersect(rectangle_1, rectangle_2)
+# intersect(rectangle_1, rectangle_3)
