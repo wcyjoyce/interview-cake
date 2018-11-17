@@ -10,4 +10,5 @@ This is a repository of all the coding exercises provided at [Interview Cake](ht
 * [#006 | Rectangular Love](https://www.interviewcake.com/question/ruby/rectangular-love)
 * [#007 | Temperature Tracker](https://www.interviewcake.com/question/ruby/temperature-tracker)
 * [#008 | Balanced Binary Tree](https://www.interviewcake.com/question/ruby/balanced-binary-tree)
+* [#011 | Million Gazillion](https://www.interviewcake.com/question/ruby/compress-url-list)
 * [#214 | In-Place Shuffle](https://www.interviewcake.com/question/ruby/shuffle)
