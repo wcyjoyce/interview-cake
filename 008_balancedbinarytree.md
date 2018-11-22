@@ -1,3 +1,6 @@
+# Balanced Binary Tree
+###### [Date]
+
 **Write a method to see if a binary tree is "_superbalanced_" – a tree is "superbalanced" if the difference between the depths of any two leaf nodes (a tree node with no children) is no greater than one.**
 
 Here's a sample binary tree node class:
