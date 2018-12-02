@@ -26,4 +26,23 @@ movie(movie_lengths, flight_long)
 movie(movie_lengths, flight_medium)
 movie(movie_lengths, flight_short)
 
+# ANSWER:
 
+require "set"
+
+def answer(movie_lengths, flight_length)
+  movie_lengths_seen = Set.new # movie lengths we've seen so far
+  movie_lengths.any? do |first_movie_length|
+    matching_second_movie_length = flight_length - first_movie_length
+    if movie_lengths_seen.include?(matching_second_movie_length)
+      p true
+    else
+      movie_lengths_seen.add(first_movie_length)
+      p false
+    end
+  end
+end
+
+answer(movie_lengths, flight_long)
+answer(movie_lengths, flight_medium)
+answer(movie_lengths, flight_short)
