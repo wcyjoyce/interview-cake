@@ -4,7 +4,6 @@
 
 def validate(code)
   brackets = { "(" => ")", "{" => "}", "[" => "]" }
-  # code = code.gsub(/\w/ && /\s+/, "")
   check = []
   code.chars.each do |char|
     if brackets.keys.include?(char)
