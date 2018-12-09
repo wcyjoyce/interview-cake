@@ -14,3 +14,4 @@ This is a repository of all the coding exercises provided at [Interview Cake](ht
 * [#012 | Find in Ordered Set](https://www.interviewcake.com/question/ruby/find-in-ordered-set)
 * [#014 | Inflight Entertainment](https://www.interviewcake.com/question/ruby/inflight-entertainment)
 * [#214 | In-Place Shuffle](https://www.interviewcake.com/question/ruby/shuffle)
+* [#217 | Bracket Validator](https://www.interviewcake.com/question/ruby/bracket-validator)
