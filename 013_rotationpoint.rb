@@ -12,7 +12,7 @@ def rotation_point(words)
 end
 
 words = %w(ptolemaic retrograde supplant undulate xenoepist asymptote babka banoffee engender karpatka)
-rotation_point(words) # 5
+rotation_point(words) # should return 5
 
 # ANSWER:
 
