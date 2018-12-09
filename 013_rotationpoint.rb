@@ -1,6 +1,5 @@
 # TODO:
-# Write a method for finding the index of the "rotation point", which is where
-# I started working from the beginning of the dictionary.
+# Write a method for finding the index of the "rotation point".
 
 def rotation_point(words)
   alphabet = ("a".."z").to_a
