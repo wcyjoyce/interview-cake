@@ -12,6 +12,7 @@ This is a repository of all the coding exercises provided at [Interview Cake](ht
 * [#008 | Balanced Binary Tree](https://www.interviewcake.com/question/ruby/balanced-binary-tree)
 * [#011 | Million Gazillion](https://www.interviewcake.com/question/ruby/compress-url-list)
 * [#012 | Find in Ordered Set](https://www.interviewcake.com/question/ruby/find-in-ordered-set)
+* [#013 | Find Rotation Point](https://www.interviewcake.com/question/ruby/find-rotation-point)
 * [#014 | Inflight Entertainment](https://www.interviewcake.com/question/ruby/inflight-entertainment)
 * [#214 | In-Place Shuffle](https://www.interviewcake.com/question/ruby/shuffle)
 * [#217 | Bracket Validator](https://www.interviewcake.com/question/ruby/bracket-validator)
