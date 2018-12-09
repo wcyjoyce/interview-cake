@@ -7,9 +7,8 @@ def reverse_words(message)
   p message
 end
 
-
-reverse_words("the eagle has landed") # landed has eagle the
-reverse_words("cake pound steal") # steal pound cake
+reverse_words("the eagle has landed") # should return "landed has eagle the"
+reverse_words("cake pound steal") # should return "steal pound cake"
 
 # ANSWER:
 
