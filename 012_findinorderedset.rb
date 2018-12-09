@@ -6,8 +6,8 @@ def search(number, array)
   array.include?(number) ? true : false
 end
 
-search(9, 1..10) # true
-search(9, 1..5) # false
+search(9, 1..10) # should return true
+search(9, 1..5) # should return false
 
 # ANSWER:
 
