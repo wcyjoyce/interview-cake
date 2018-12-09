@@ -22,9 +22,9 @@ flight_long = 100
 flight_medium = 70
 flight_short = 20
 
-movie(movie_lengths, flight_long)
-movie(movie_lengths, flight_medium)
-movie(movie_lengths, flight_short)
+movie(movie_lengths, flight_long) # should return "false / false / true"
+movie(movie_lengths, flight_medium) # should return "false / false / false / true"
+movie(movie_lengths, flight_short) # should return "false / false / false / false / false"
 
 # ANSWER:
 
@@ -43,6 +43,6 @@ def answer(movie_lengths, flight_length)
   end
 end
 
-answer(movie_lengths, flight_long)
-answer(movie_lengths, flight_medium)
-answer(movie_lengths, flight_short)
+answer(movie_lengths, flight_long) # should return "false / false / true"
+answer(movie_lengths, flight_medium) # should return "false / false / false / true"
+answer(movie_lengths, flight_short) # should return "false / false / false / false / false"
