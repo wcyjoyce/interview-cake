@@ -51,6 +51,6 @@ def answer(code)
   return openers_stack.empty?
 end
 
-# p answer("{ [ ] ( ) }")
-# p answer("{ [ ( ] ) }")
-# p answer("{ [ }")
+p answer("{ [ ] ( ) }")
+p answer("{ [ ( ] ) }")
+p answer("{ [ }")
