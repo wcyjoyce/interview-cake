@@ -17,9 +17,9 @@ def validate(code)
   check.empty? ? true : false
 end
 
-p validate("{ [ ] ( ) }") # true
-p validate("{ [ ( ] ) }") # false
-p validate("{ [ }") # false
+p validate("{ [ ] ( ) }") # should return true
+p validate("{ [ ( ] ) }") # should return false
+p validate("{ [ }") # should return false
 
 # ANSWER:
 
