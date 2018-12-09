@@ -15,3 +15,26 @@ end
 words = %w(ptolemaic retrograde supplant undulate xenoepist asymptote babka banoffee engender karpatka)
 rotation_point(words) # 5
 
+# ANSWER:
+
+## 1) Guess a halfway point between floor and ceiling
+## 2) If guess is/comes after the first word - go right
+## 3) Return if floor and ceiling have converged
+
+def answer(words)
+  floor_index = 0
+  ceiling_index = words.length - 1
+
+  while floor_index < ceiling_index
+    guess_index = (floor_index + ceiling_index) / 2
+    if words[guess_index] >= words.first
+      floor_index = guess_index
+    else
+      ceiling_index = guess_index
+    end
+    return ceiling_index if floor_index + 1 == ceiling_index
+  end
+end
+
+p answer(words)
+
