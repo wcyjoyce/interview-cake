@@ -16,3 +16,4 @@ This is a repository of all the coding exercises provided at [Interview Cake](ht
 * [#014 | Inflight Entertainment](https://www.interviewcake.com/question/ruby/inflight-entertainment)
 * [#214 | In-Place Shuffle](https://www.interviewcake.com/question/ruby/shuffle)
 * [#217 | Bracket Validator](https://www.interviewcake.com/question/ruby/bracket-validator)
+* [#220 | Reverse Words](https://www.interviewcake.com/question/ruby/reverse-words)
