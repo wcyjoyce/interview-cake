@@ -3,9 +3,14 @@
 
 def visited(url)
   visited = []
+  if url =~ /\.^*(...)*\./
+    p true
+  else
+    p false
+  end
   # get the middle section of the url (so that it strips things like "www." and ".com ")
   visited << url unless visited.include?(url)
-  p visited
+  # p url
 end
 
 uk = "http://www.google.co.uk"
@@ -15,6 +20,7 @@ hk = "http://www.google.com.hk"
 visited(uk)
 visited(global)
 visited(hk)
+visited("www.google")
 
 # ANSWER:
 
@@ -35,9 +41,9 @@ class Trie
       current_node = current_node[char]
     end
 
-    if !current_node.key? "End Of Word"
+    if !current_node.key? "end of word"
       is_new_word = true
-      current_node["End Of Word"] = {}
+      current_node["end of word"] = {}
     end
 
     return is_new_word
