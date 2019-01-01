@@ -5,7 +5,7 @@ You want to be able to access the largest element in a stack.
 
 You've already implemented this Stack class:
 ```
-  class Stack
+class Stack
 
   # initialize an empty array
   def initialize
