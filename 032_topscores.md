@@ -20,7 +20,7 @@ sort_scores(unsorted_scores, HIGHEST_POSSIBLE_SCORE)
 
 We’re defining `n` as the number of unsorted_scores because we’re expecting the number of players to keep climbing.
 
-And, we'll treat highest_possible_score as a constant instead of factoring it into our big O time and space costs because the highest possible score isn’t going to change. Even if we do redesign the game a little, the scores will stay around the same order of magnitude.
+And, we'll treat `highest_possible_score` as a constant instead of factoring it into our big O time and space costs because the highest possible score isn’t going to change. Even if we do redesign the game a little, the scores will stay around the same order of magnitude.
 
 ---
 
