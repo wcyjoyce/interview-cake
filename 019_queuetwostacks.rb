@@ -31,13 +31,14 @@ class QueueTwoStacks
   end
 
   def dequeue
-    if @out_stack.empty?
+    unless @out_stack.empty?
       # Move items from in_stack to out_stack, reversing order
       until @in_stack.empty?
         newest = @in_stack.pop
         @out_stack.push(newest)
       end
+    else
+      return nil
     end
-    @out_stack.empty? ? nil : @out_stack.pop
   end
 end
