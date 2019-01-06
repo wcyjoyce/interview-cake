@@ -12,9 +12,9 @@ Each round, players receive a score between 0 and 100, which you use to rank the
 For example:
 ```
 unsorted_scores = [37, 89, 41, 65, 91, 53]
-HIGHEST_POSSIBLE_SCORE = 100
+highest_possible_score = 100
 
-sort_scores(unsorted_scores, HIGHEST_POSSIBLE_SCORE)
+sort_scores(unsorted_scores, highest_possible_score)
 # returns [91, 89, 65, 53, 41, 37]
 ```
 
